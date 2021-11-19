@@ -3,6 +3,7 @@
 from typing import Any
 
 try:
+    # pylint: disable=unused-import # to be imported from here
     from enum import StrEnum  # type: ignore[attr-defined]
 except ImportError:
     from enum import Enum
